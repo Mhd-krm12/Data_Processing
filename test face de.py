@@ -10,8 +10,6 @@ from tensorflow.keras.preprocessing import image
 from keras_vggface import utils
 
 
-
-
 yüz_içermeyen_resimler_sayacı=0
 geçersiz_resimler_sayacı=0
 
