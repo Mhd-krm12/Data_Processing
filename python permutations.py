@@ -1,3 +1,6 @@
+#itertools — Functions creating iterators for efficient looping
+
+
 import itertools
 for i in range(24):
     sonuc=list(itertools.permutations([0,1,2,3]))[i]
