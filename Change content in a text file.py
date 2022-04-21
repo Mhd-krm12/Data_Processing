@@ -1,5 +1,5 @@
 #EN:This code visits a selected folder and changes the first letter of each line.
-#TR:Bu kod belirli bir klasöre girer ve her satırın ilk harfini değiştirir.
+#TR:Bu kod seçilen bir klasöre girer ve her satırın ilk harfini değiştirir.
 #AR:يعمل هذا الكود على الدخل إلى مجلد معين وتغير أول حرف من كل سطر 
 
 import os
