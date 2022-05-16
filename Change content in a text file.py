@@ -11,7 +11,7 @@ for paths,folders,files in os.walk(os.getcwd()):
                 reading_file = open(file,"r")
                 new_str = ""
                 for line in reading_file:
-                    new_line=(line[0].replace(line[0],'0')+line[1:])
+                    new_line=(line[0].replace(line[0],'0')+line[1:])   #first char deleted, and chenged to "0"
                     new_str += new_line
                 writing_file = open(file,"w")
                 writing_file.write(new_str)
