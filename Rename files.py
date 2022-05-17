@@ -2,7 +2,7 @@ import glob, os
 
 path=r"C:\Users\...\folder"
 def get_image_files(folder_path):
-    img_formats = ['jpg','png', 'jpeg',"txt"] 
+    img_formats = ['jpg','png', 'jpeg',"txt", "gif"] 
     files = []
     for image_file in glob.iglob(os.path.join(folder_path, "**"), recursive=True):
         files.append(image_file)
